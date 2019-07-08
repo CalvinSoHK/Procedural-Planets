@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22d26bdb8a060b547bb39d364ff7b81a, type: 3}
+  m_Name: PlanetShape1
+  m_EditorClassIdentifier: 
+  planetRadius: 2.35
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        numLayers: 4
+        strength: 0.1
+        baseRoughness: 1.6
+        roughness: 2.16
+        persistence: 0.34
+        minValue: 0.8
+        center: {x: 0, y: 0, z: 0}
+      rigidNoiseSettings:
+        numLayers: 1
+        strength: 1
+        baseRoughness: 1
+        roughness: 2
+        persistence: 0.5
+        minValue: 0
+        center: {x: 0, y: 0, z: 0}
+        weightMultiplier: 0.8
+  - enabled: 0
+    useFirstLayerMask: 1
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        numLayers: 4
+        strength: 0.29
+        baseRoughness: 1.81
+        roughness: 2.15
+        persistence: 0.61
+        minValue: 0.21
+        center: {x: 0, y: 0, z: 0}
+      rigidNoiseSettings:
+        numLayers: 1
+        strength: 1
+        baseRoughness: 1
+        roughness: 2
+        persistence: 0.5
+        minValue: 0
+        center: {x: 0, y: 0, z: 0}
+        weightMultiplier: 0.8
+  - enabled: 1
+    useFirstLayerMask: 1
+    noiseSettings:
+      filterType: 1
+      simpleNoiseSettings:
+        numLayers: 1
+        strength: 1
+        baseRoughness: 1
+        roughness: 2
+        persistence: 0.5
+        minValue: 0
+        center: {x: 0, y: 0, z: 0}
+      rigidNoiseSettings:
+        numLayers: 4
+        strength: 1.95
+        baseRoughness: 5.54
+        roughness: 2.88
+        persistence: 0.87
+        minValue: 0.13
+        center: {x: 0, y: 0, z: 0}
+        weightMultiplier: 0.39
